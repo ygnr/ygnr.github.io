@@ -1,0 +1,87 @@
+.header
+{
+  margin-top: 6rem;
+}
+
+.author-image
+{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.author-name
+{
+	margin-top: 2rem;
+  color: #222;
+}
+
+.author-title
+{
+  margin-top: 1rem;
+  color: #555;
+}
+
+.author-interests
+{
+  margin-top: 1rem;
+  color: #777;
+}
+
+.author-social
+{
+	margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.author-social>a
+{
+	margin: 1rem;
+}
+
+.author-links
+{
+  margin-top: 2rem;
+}
+
+.author-links>a
+{
+  margin: 1rem;
+  color: #37A;
+  font-size: 1.5rem;
+}
+
+.footer-divider
+{
+	margin-top: 4rem;
+  margin-bottom: 1rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+.copyright
+{
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 991px) and  (max-height: 700px)
+{
+  .header
+  {
+    margin-top: 3rem;
+  }
+
+  .author-links
+  {
+    margin-top: 1rem;
+  }
+
+  .footer-divider
+  {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+  }
+}
